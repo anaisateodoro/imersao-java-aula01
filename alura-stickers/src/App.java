@@ -20,7 +20,7 @@ public class App {
         
 
 
-        // extrair pegar só os dados que nos interrasam (titulo,poster,classificação)
+        // extrair - pegar só os dados que nos interessaremos (titulo,poster,classificação)
         JsonParser parser = new JsonParser();
         List<Map<String,String>>listaDeFilmes = parser.parse(body);
 
